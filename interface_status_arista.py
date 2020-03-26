@@ -14,6 +14,7 @@ switches = ['10.0.0.11','10.0.0.12']
 interface_mode = ['bridged','trunk']
 """ notconnect is a port that is down """
 state = 'notconnect'
+description = 'ClientX'
 
 def shutdown_port(m,n):
     try:
@@ -37,6 +38,7 @@ def main():
         for n in status.keys():
             a = status[n]["linkStatus"]
             ifmode = interface_status["result"][0]["interfaceStatuses"][n]["vlanInformation"]["interfaceMode"]
+#            if desc == description:
             if a ==  state and "Ethernet" in n and ifmode in interface_mode:
                 shutdown_port(n,switch)
 
