@@ -10,7 +10,7 @@ The scope of this project is to automate the process of shutting down
 
 ## Usage
 
-The project is made of just 1 python file. It was written in Python 2.7.
+The project is made of just 1 python file. It was written in Python 2.7 and uses pyeapi library.
 <br>The script was made to administratively shutdown port (Ethernet , not Management)
 <br>that are down and that are in access mode or trunk. But the script can be easily modified to shutdown
 <br>ports that are in a particular vlan or have some particular description for example.
