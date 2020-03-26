@@ -14,6 +14,7 @@ The project is made of just 1 python file. It was written in Python 2.7.
 <br>The script was made to administratively shutdown port (Ethernet , not Management)
 <br>that are down and that are in access mode or trunk. But the script can be easily modified to shutdown
 <br>ports that are in a particular vlan or have some particular description for example.
+<br>The port does not have to be in down state(notconnect).
   
 ## Credits
 This was written by Mihai Cziraki
