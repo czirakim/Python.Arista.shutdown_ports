@@ -1,4 +1,4 @@
-#!/home/czirakim/python/art/bin/python
+#!/home/username/python/art/bin/python
 """ This script is for shutting down unused ports and place them in a quarantine vlan """
 import pyeapi
 from pprint import pprint
